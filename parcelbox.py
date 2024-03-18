@@ -50,3 +50,4 @@ class AbstractParcelBox(ABC):
 
 # doplnte zde jeste kontrakt pro notifikator, napr. AbstractNotifier, ktery bude umet zasilat text oznameni na danou mailovou adresu
 # tento notifikator bude uvnitr pouzivat vase implementace AbstractParcelBoxu
+# implementace AbstractNotifier bude jen vypisovat co posila a kam to posila pomoci print
